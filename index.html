@@ -1,51 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap"
+      media="all"
+    />
     <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="3D artist turned front-end developer. I build clean, expressive interfaces with bold details and good code."
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>claudio.dev</title>
   </head>
 
   <body>
+    <a class="skip-link" href="#hero">Skip to content</a>
     <header>
-      <div class="logo">claudio.dev</div>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li class="pill"><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <a class="logo" href="#hero">claudio.dev</a>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a class="pill" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
+      <div class="container">
         <section id="hero">
-      <h1>
-        <span class="hero-text"
-          >HI, I’M <span class="highlighted">CLAUDIO</span>,</span
-        ><br />
-        <span class="hero-text"><span class="zoom">3D</span> ARTIST TURNED</span
-        ><br />
-        <span class="hero-text highlighted glitch-wrapper">
-          <span class="dev-stable">D</span
-          ><span class="dev-hang">EVELOPER</span>
-        </span>
-      </h1>
-      <p class="bio-text">
-        ✦ WHO I AM<br />
-        Hi, I'm Claudio, a 3D artist turned developer.<br />
-        Passionate about clean, expressive design that works.<br />
-        I like bold interfaces, strange details, and good code.<br />
-      </p>
-    </section>
+          <h1>
+            <span class="hero-text"
+              >HI, I’M <span class="highlighted">CLAUDIO</span>,</span
+            ><br />
+            <span class="hero-text"
+              ><span class="zoom">3D</span> ARTIST TURNED</span
+            ><br />
+            <span class="hero-text highlighted glitch-wrapper">
+              <span class="dev-stable">D</span
+              ><span class="dev-hang">EVELOPER</span>
+            </span>
+          </h1>
+
+          <p class="bio-text">
+            ✦ WHO I AM<br />
+            a 3D artist turned developer.<br />
+            Passionate about clean, expressive design that works.<br />
+            I like bold interfaces, strange details, and good code.<br />
+          </p>
+        </section>
+
+        <section id="about">
+          <h2 class="visually-hidden">About</h2>
+        </section>
+
+        <section id="projects">
+          <h2 class="visually-hidden">Projects</h2>
+        </section>
+
+        <section id="contacts">
+          <h2 class="visually-hidden">Contacts</h2>
+        </section>
+      </div>
     </main>
-    
+
     <footer>
-      <p class="scroll-down">
-        ⌄ <br />
-        scroll down<br />
-      </p>
+      <a class="scroll-down" href="#about" aria-label="Scroll to About"
+        >⌄<br />scroll down</a
+      >
     </footer>
   </body>
 </html>
