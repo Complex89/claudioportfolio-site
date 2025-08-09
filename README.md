@@ -3,7 +3,8 @@
 My personal portfolio — designed, coded, and deployed from scratch.  
 A clean, responsive site to showcase my journey from **3D artist** to **front-end developer**.
 
-**[Live Demo](https://complex89.github.io/claudioportfolio-site/)**
+## Live
+https://claudio-works.github.io/claudioportfolio-site/
 
 ---
 
