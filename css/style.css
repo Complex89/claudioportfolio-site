@@ -15,9 +15,10 @@ img {
   /* ====== FONTS ====== */
   --font-hero: "Satoshi", sans-serif;
   --font-body: "Inter", sans-serif;
+  --font-logo: "IBM Plex Mono", sans-serif;
 
   /* ====== COLORS ====== */
-  --color-bg: #111; /* page background */
+  --color-bg: #121212; /* page background */
   --color-text: #f4ede4; /* main text color */
   --color-accent: #ff6600; /* highlight / brand */
   --color-muted: #a9a29c; /* subtext / less emphasis */
@@ -86,9 +87,11 @@ header .container {
 }
 
 .logo {
-  font-family: var(--font-hero);
+  font-family: var(--font-logo);
   font-weight: 700;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
   color: inherit;
 }
 
@@ -316,7 +319,7 @@ footer:hover {
   border-radius: var(--radius-sm);
 }
 
-/*temp stuff*/
+/* ====== TEMP STUFFS ====== */
 .visually-hidden {
   position: absolute;
   width: 1px;
